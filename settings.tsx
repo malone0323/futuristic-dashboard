@@ -300,7 +300,7 @@ const mockAdvancedSettings: AdvancedSettings = {
 };
 
 // Settings component
-export default function Settings() {
+export default function Settingss() {
   const [activeTab, setActiveTab] = useState("general");
   const [isLoading, setIsLoading] = useState(false);
   const [saveSuccess, setSaveSuccess] = useState(false);

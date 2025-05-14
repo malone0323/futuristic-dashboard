@@ -47,7 +47,7 @@ import Network from "./network"
 import Security from "./security"
 import Console from "./console"
 import Communications from "./communications"
-import Settings from "./settings"
+import Settingss from "./settings"
 
 // Define the available views
 type View =
@@ -227,7 +227,7 @@ export default function Dashboard() {
         return <Communications />
       case "settings":
         // return <div className="text-center p-10 text-slate-300">Settings View (Coming Soon)</div>
-        return <Settings />
+        return <Settingss />
       default:
         return renderDashboardView()
     }
